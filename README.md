@@ -1,1 +1,5 @@
-# homebrew-repo
+# homebrew-tap
+
+## Formulae:
+
+- tag-corrector (corrects ID3 tags)
