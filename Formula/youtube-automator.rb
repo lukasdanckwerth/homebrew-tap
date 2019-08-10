@@ -1,9 +1,9 @@
 class YoutubeAutomator < Formula
   desc "watches youtube for new videos"
   homepage "https://gitlab.com/lukasdanckwerth/youtube-automator"
-  url "git@gitlab.com:lukasdanckwerth/youtube-automator.git", :using => :git, :tag => "0.0.6"
+  url "git@gitlab.com:lukasdanckwerth/youtube-automator.git", :using => :git, :tag => "0.0.7"
 
-  version "0.0.6"
+  version "0.0.7"
 
   depends_on "youtube-dl"
   depends_on "jq"
