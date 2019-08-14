@@ -1,4 +1,4 @@
-class XcodeIconsUtil < Formula
+class Xcodeiconsutil < Formula
   desc "corrects ID3 tags"
   homepage "https://gitlab.com/lukasdanckwerth/XcodeIconsUtil"
   url "git@gitlab.com:lukasdanckwerth/XcodeIconsUtil.git", :using => :git, :tag => "0.0.2"
