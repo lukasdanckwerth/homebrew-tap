@@ -1,9 +1,9 @@
 class Xcodeiconsutil < Formula
   desc "Easy create image sets."
   homepage "https://gitlab.com/lukasdanckwerth/XcodeIconsUtil"
-  url "git@gitlab.com:lukasdanckwerth/XcodeIconsUtil.git", :using => :git, :tag => "0.0.3"
+  url "git@gitlab.com:lukasdanckwerth/XcodeIconsUtil.git", :using => :git, :tag => "0.0.5"
 
-  version "0.0.3"
+  version "0.0.5"
 
   def install
     if MacOS::Xcode.installed?
