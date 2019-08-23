@@ -1,9 +1,9 @@
 class TagCorrector < Formula
   desc "corrects ID3 tags"
   homepage "https://gitlab.com/lukasdanckwerth/ID3Corrector"
-  url "git@gitlab.com:lukasdanckwerth/ID3Corrector.git", :using => :git, :tag => "0.0.4"
+  url "git@gitlab.com:lukasdanckwerth/ID3Corrector.git", :using => :git, :tag => "0.0.5"
 
-  version "0.0.4"
+  version "0.0.5"
 
   def install
     if MacOS::Xcode.installed?
