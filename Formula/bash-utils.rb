@@ -1,7 +1,7 @@
 class BashUtils < Formula
   desc "useful terminal utils"
-  homepage "https://gitlab.com/lukasdanckwerth/bash-utils"
-  url "git@gitlab.com:lukasdanckwerth/bash-utils.git", :using => :git, :tag => "0.1.6"
+  homepage "https://github.com/lukasdanckwerth/bash-utils"
+  url "git@github.com:lukasdanckwerth/bash-utils.git", :using => :git, :tag => "0.1.6"
 
   version "0.1.6"
 
@@ -11,6 +11,7 @@ class BashUtils < Formula
     bin.install "podupdatefast"
     bin.install "formulaupdate"
     bin.install "formulaedit"
+    bin.install "printbanner"
   end
 
   test do
