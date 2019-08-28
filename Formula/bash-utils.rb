@@ -1,13 +1,14 @@
 class BashUtils < Formula
   desc "useful terminal utils"
   homepage "https://github.com/lukasdanckwerth/bash-utils"
-  url "git@github.com:lukasdanckwerth/bash-utils.git", :using => :git, :tag => "0.1.7"
+  url "git@github.com:lukasdanckwerth/bash-utils.git", :using => :git, :tag => "0.1.8"
 
-  version "0.1.7"
+  version "0.1.8"
 
   def install
     bin.install "gitcommitfast"
     bin.install "gitversiontag"
+    bin.install "gitupdate"
     bin.install "podupdatefast"
     bin.install "formulaupdate"
     bin.install "formulaedit"
